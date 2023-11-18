@@ -4,11 +4,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Project</title>
+    <link rel="stylesheet" href="assets/materialize-v1.0.0/materialize/css/materialize.min.css">
+    <link rel="stylesheet" href="assets/css/util.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
+    <!-- -------Nvbar Section --------------------->
+    <nav class="blue darken-2 z-depth-2 top_navbar">
+        <div class="nav-wrapper">
+            <a href="index.html" class="brand-logo hide-on-med-and-up">User Managment</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="hide-on-med-and-down">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="users.html">User Manager</a></li>
+                <li><a href="#">Coding</a></li>
+                <li><a href="#">Fast Learn</a></li>
+            </ul>
+        </div>
+    </nav>
 
+    <ul class="sidenav" id="mobile-demo">
+        <li>
+            <div class="user-view">
+                <div class="background">
+                    <img src="assets/Images/officeback1.jpg" class="w_22">
+                </div>
+                <a href="#user"><img class="circle" src="assets/Images/ProfilePerson.jpg"></a>
+                <a href="#name"><span class="white-text name">William</span></a>
+                <a href="#email"><span class="white-text email">Williami@gmail.com</span></a>
+            </div>
+        </li>
+        <li><a href="#!"><i class="material-icons">insert_link
+                </i>First Link With Icon</a></li>
+        <li><a href="#!"><i class="material-icons">local_phone
+                </i>No.+123564383</a></li>
+        <li><a href="#!">Second Link</a></li>
+        <li>
+            <div class="divider"></div>
+        </li>
+        <li><a class="subheader">MY PAGES :</a></li>
+        <li><a class="waves-effect" href="users.html">
+                <i class="material-icons">accessibility</i>
+                Home
+            </a></li>
+        <li><a class="waves-effect person" href="#!">
+                <i class="material-icons">person</i>INATAGRAM</a></li>
+    </ul>
+    <!-- ------ Navbar Section -----------End------------>
+
+
+
+    <!---------Content section --------------Start--------->
+    <section id="top_actions_sections">
+        <!---- Add Button  ------------------------   ---->
+        <div class="p-l-10 p-r-10 p-t-10"></div>
+        <button class="waves-effect waves-light btn blue darken-2 p-l-30 p-r-30 w-full rounded_pill flex-c">
+            <i class="material-icons m-r-5">add</i>
+            Add User
+        </button>
+        </div>
+
+
+        <!---------Search section ----------------------->
+
+        <div class="row">
+            <div class="input-field col s12">
+                <input id="Search" type="text" class="validate">
+                <label for="Search">
+                    <i class="material-icons pos-relative top-7">search</i>
+                    Search</label>
+            </div>
+        </div>
+
+
+    </section>
+    <!---------Content section --------------End--------->
+
+
+
+
+
+
+    <script src="assets/materialize-v1.0.0/materialize/js/materialize.min.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
